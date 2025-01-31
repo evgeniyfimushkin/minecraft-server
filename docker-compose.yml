@@ -1,0 +1,20 @@
+
+services:
+  minecraft:
+    image: evgeniyfimushkin/mine
+    build: .
+    container_name: mine
+    ports:
+      - "25565:25565"
+      - "80:8080"
+    volumes:
+       - ./server.properties:/minecraft/server.properties:z
+       - ./data:/minecraft  # Весь мир и конфиги
+    environment:
+      - TYPE=CURSEFORGE
+      - MEMORY_MAX=8G
+      - MEMORY_MIN=2G
+    stdin_open: true
+    tty: true
+    restart: always
+
