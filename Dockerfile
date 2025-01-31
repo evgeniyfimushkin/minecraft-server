@@ -23,14 +23,11 @@ RUN apt-get update && apt-get install -y wget \
 
 COPY mods /minecraft/mods
 
-# Открываем порты
 EXPOSE 25565 8080
 
 RUN echo "eula=true" > eula.txt
 RUN echo "online-mode=false" > server.properties
 
-# Копируем скомпилированную Go-программу из builder-слоя
-COPY --from=builder /app/server-wrapper .
+COPY --from=builder app/server-wrapper ./server-wrapper
 
-# Запускаем Go-программу
 CMD ["./server-wrapper"]

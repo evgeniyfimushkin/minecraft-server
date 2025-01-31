@@ -3,18 +3,24 @@ services:
   minecraft:
     image: evgeniyfimushkin/mine
     build: .
-    container_name: mine
+    container_name: mine-server
     ports:
       - "25565:25565"
       - "80:8080"
     volumes:
        - ./server.properties:/minecraft/server.properties:z
-       - ./data:/minecraft  # Весь мир и конфиги
+       - ./data/banned-ips.json:/minecraft/banned-ips.json
+       - ./data/config:/minecraft/config
+       - ./data/ops.json:/minecraft/ops.json
+       - ./data/whitelist.json:/minecraft/whitelist.json
+       - ./data/banned-players.json:/minecraft/banned-players.json
+       - ./data/logs:/minecraft/logs
+       - ./data/usercache.json:/minecraft/usercache.json
+       - ./data/world:/minecraft/world
     environment:
-      - TYPE=CURSEFORGE
       - MEMORY_MAX=8G
       - MEMORY_MIN=2G
+      - TZ=Asia/Novosibirsk
     stdin_open: true
     tty: true
     restart: always
-

@@ -19,13 +19,12 @@ func handleCommand(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/html")
 		fmt.Fprintf(w, `
 			<html>
-			<head><title>Введите команду Minecraft</title></head>
+			<head></head>
 			<body>
-				<h1>Введите команду для Minecraft</h1>
 				<form action="/command" method="POST">
-					<label for="command">Команда:</label>
+					<label for="command"></label>
 					<input type="text" id="command" name="command" required>
-					<button type="submit">Отправить команду</button>
+					<button type="submit">Send</button>
 				</form>
 			</body>
 			</html>
@@ -69,12 +68,12 @@ func handleLogs(w http.ResponseWriter, r *http.Request) {
 
 	// Отдаем логи в формате HTML
 	w.Header().Set("Content-Type", "text/html")
-	fmt.Fprintf(w, "<h1>Последние логи:</h1><pre>%s</pre>", logFileContent)
+	fmt.Fprintf(w, "<h1>Logs:</h1><pre>%s</pre>", logFileContent)
 }
 
 func main() {
 	// Запускаем Minecraft сервер с помощью Java
-	cmd := exec.Command("java", "-Xmx10G", "-Xms2G", "-jar", "forge-1.12.2-14.23.5.2860.jar", "nogui")
+	cmd := exec.Command("java", "-Xmx8G", "-Xms2G", "-jar", "forge-1.12.2-14.23.5.2860.jar", "nogui")
 
 	// Перенаправляем stdout и stderr для отображения в консоли
 	cmd.Stdout = os.Stdout
@@ -100,10 +99,17 @@ func main() {
 	http.HandleFunc("/logs", handleLogs)        // Отображение логов
 
 	// Запускаем HTTP сервер на порту 8080
-	log.Println("HTTP сервер запущен на порту 8080")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	go func() {
+		log.Println("HTTP сервер запущен на порту 8080")
+		if err := http.ListenAndServe(":8080", nil); err != nil {
+			log.Fatalf("Ошибка HTTP сервера: %v", err)
+		}
+	}()
 
-	// Ожидаем завершения работы Minecraft сервера
-	cmd.Wait()
+	// Ожидаем завершения Minecraft сервера
+	err = cmd.Wait()
+	if err != nil {
+		log.Fatalf("Minecraft сервер завершился с ошибкой: %v", err)
+	}
 }
 
