@@ -10,6 +10,7 @@ services:
     volumes:
        - ./server.properties:/minecraft/server.properties:z
        - ./world:/minecraft/world:z
+       - ./mods:/minecraft/mods:z
     environment:
       - MEMORY_MAX=8G
       - MEMORY_MIN=2G

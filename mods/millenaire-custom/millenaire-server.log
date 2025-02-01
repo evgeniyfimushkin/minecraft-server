@@ -1,0 +1,10 @@
+8.1.2 01-02-2025 21:29:04 Starting new session. Mods: examplemod 
+8.1.2 01-02-2025 21:29:12 MAJOR: null: Loading language: fr
+8.1.2 01-02-2025 21:29:12 ERROR: null: Git conflict lines present in /minecraft/mods/millenaire/languages/zh_tw/quests_alchemist.txt
+8.1.2 01-02-2025 21:29:12 ERROR: null: Git conflict lines present in /minecraft/mods/millenaire/languages/zh_tw/quests_sadhu.txt
+8.1.2 01-02-2025 21:29:12 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning
+8.1.2 01-02-2025 21:31:45 Starting new session. Mods: examplemod 
+8.1.2 01-02-2025 21:31:54 MAJOR: null: Loading language: fr
+8.1.2 01-02-2025 21:31:54 ERROR: null: Git conflict lines present in /minecraft/mods/millenaire/languages/zh_tw/quests_alchemist.txt
+8.1.2 01-02-2025 21:31:54 ERROR: null: Git conflict lines present in /minecraft/mods/millenaire/languages/zh_tw/quests_sadhu.txt
+8.1.2 01-02-2025 21:31:54 MAJOR: null: LanguageData loaded: fr. Wand invitem name: Wand of Summoning

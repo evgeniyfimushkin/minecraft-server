@@ -1,0 +1,2 @@
+quest:normanrasgullas;step:0;startTime:337000;currentStepStartTime:337000;villager:startvillager,5144797044603825149,-666/67/2477;villager:child,3296363988473311266,-666/67/2477
+quest:sweettrader;step:0;startTime:370000;currentStepStartTime:370000;villager:startvillager,7611323858330922929,-666/67/2477;villager:girl,3723003431348830673,-666/67/2477

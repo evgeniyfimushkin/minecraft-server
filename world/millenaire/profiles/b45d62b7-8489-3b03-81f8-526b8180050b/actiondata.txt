@@ -1,0 +1,11 @@
+forest_explore_point5:6327/90/-14464
+forest_explore_point4:6661/111/-11068
+sadhuqueststatus:3
+forest_explore_point3:6720/99/-10905
+forest_explore_nbcomplete:9
+forest_explore_point2:6376/66/-6810
+forest_explore_point9:4023/87/-5729
+forest_explore_point8:4037/89/-5737
+forest_explore_point7:6183/93/-14756
+forest_explore_point6:6332/100/-14516
+forest_explore_point1:6127/75/-6594

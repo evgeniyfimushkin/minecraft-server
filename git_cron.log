@@ -1,0 +1,155 @@
+fatal: confused by unstable object source data for 16cad6b3b72cd58a7be458ab886959d6c5a38043
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   server.properties
+	modified:   world/advancements/b45d62b7-8489-3b03-81f8-526b8180050b.json
+	modified:   world/data/Mineshaft.dat
+	modified:   world/data/villages.dat
+	modified:   world/level.dat
+	modified:   world/level.dat_old
+	modified:   world/millenaire/lonebuildings.txt
+	modified:   world/millenaire/villagerRecords.gz
+	modified:   world/millenaire/villages.txt
+	modified:   world/playerdata/b45d62b7-8489-3b03-81f8-526b8180050b.dat
+	modified:   world/region/r.-1.-1.mca
+	modified:   world/region/r.-1.0.mca
+	modified:   world/region/r.0.-1.mca
+	modified:   world/region/r.0.0.mca
+	modified:   world/session.lock
+	modified:   world/stats/b45d62b7-8489-3b03-81f8-526b8180050b.json
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	backup.sh
+	git_cron.log
+	world/advancements/c6c88fa8-c4c7-37a7-8f6e-c3f664106601.json
+	world/advancements/eeedd431-4dc6-3b6f-8984-183c4ea61fa0.json
+	world/data/Monument.dat
+	world/data/Stronghold.dat
+	world/data/Temple.dat
+	world/data/Village.dat
+	world/millenaire/1046_76_-1914ToDelete
+	world/millenaire/1097_69_-1960ToDelete
+	world/millenaire/4696_70_-6509ToDelete
+	world/millenaire/5338_78_-6120ToDelete
+	world/millenaire/6170_72_-14890ToDelete
+	world/millenaire/6393_84_-13241ToDelete
+	world/millenaire/6641_95_-11734ToDelete
+	world/millenaire/7158_71_-10333ToDelete
+	world/millenaire/buildings/
+	world/millenaire/profiles/
+	world/playerdata/c6c88fa8-c4c7-37a7-8f6e-c3f664106601.dat
+	world/playerdata/eeedd431-4dc6-3b6f-8984-183c4ea61fa0.dat
+	world/region/r.-1.-2.mca
+	world/region/r.-1.-3.mca
+	world/region/r.-1.1.mca
+	world/region/r.-1.2.mca
+	world/region/r.-1.3.mca
+	world/region/r.-1.4.mca
+	world/region/r.-1.5.mca
+	world/region/r.-2.0.mca
+	world/region/r.-2.1.mca
+	world/region/r.-2.2.mca
+	world/region/r.-2.3.mca
+	world/region/r.-2.4.mca
+	world/region/r.-2.5.mca
+	world/region/r.-2.6.mca
+	world/region/r.-2.7.mca
+	world/region/r.-3.2.mca
+	world/region/r.-3.3.mca
+	world/region/r.-3.4.mca
+	world/region/r.-3.5.mca
+	world/region/r.-3.6.mca
+	world/region/r.-3.7.mca
+	world/region/r.0.-2.mca
+	world/region/r.0.-3.mca
+	world/region/r.0.-4.mca
+	world/region/r.0.1.mca
+	world/region/r.1.-1.mca
+	world/region/r.1.-2.mca
+	world/region/r.1.-3.mca
+	world/region/r.1.-4.mca
+	world/region/r.1.-5.mca
+	world/region/r.1.0.mca
+	world/region/r.10.-12.mca
+	world/region/r.10.-13.mca
+	world/region/r.11.-12.mca
+	world/region/r.11.-13.mca
+	world/region/r.11.-14.mca
+	world/region/r.11.-15.mca
+	world/region/r.11.-29.mca
+	world/region/r.11.-30.mca
+	world/region/r.12.-13.mca
+	world/region/r.12.-14.mca
+	world/region/r.12.-15.mca
+	world/region/r.12.-16.mca
+	world/region/r.12.-21.mca
+	world/region/r.12.-22.mca
+	world/region/r.12.-23.mca
+	world/region/r.12.-24.mca
+	world/region/r.12.-25.mca
+	world/region/r.12.-26.mca
+	world/region/r.12.-27.mca
+	world/region/r.12.-28.mca
+	world/region/r.12.-29.mca
+	world/region/r.12.-30.mca
+	world/region/r.13.-15.mca
+	world/region/r.13.-16.mca
+	world/region/r.13.-17.mca
+	world/region/r.13.-20.mca
+	world/region/r.13.-21.mca
+	world/region/r.13.-22.mca
+	world/region/r.13.-23.mca
+	world/region/r.13.-24.mca
+	world/region/r.13.-25.mca
+	world/region/r.14.-16.mca
+	world/region/r.14.-17.mca
+	world/region/r.14.-18.mca
+	world/region/r.14.-19.mca
+	world/region/r.14.-20.mca
+	world/region/r.14.-21.mca
+	world/region/r.14.-22.mca
+	world/region/r.15.-19.mca
+	world/region/r.15.-20.mca
+	world/region/r.2.-1.mca
+	world/region/r.2.-2.mca
+	world/region/r.2.-3.mca
+	world/region/r.2.-4.mca
+	world/region/r.2.-5.mca
+	world/region/r.2.-6.mca
+	world/region/r.3.-1.mca
+	world/region/r.3.-2.mca
+	world/region/r.3.-5.mca
+	world/region/r.3.-6.mca
+	world/region/r.3.-7.mca
+	world/region/r.4.-6.mca
+	world/region/r.4.-7.mca
+	world/region/r.4.-8.mca
+	world/region/r.5.-10.mca
+	world/region/r.5.-7.mca
+	world/region/r.5.-8.mca
+	world/region/r.5.-9.mca
+	world/region/r.6.-10.mca
+	world/region/r.6.-11.mca
+	world/region/r.6.-8.mca
+	world/region/r.6.-9.mca
+	world/region/r.7.-10.mca
+	world/region/r.7.-11.mca
+	world/region/r.7.-12.mca
+	world/region/r.7.-13.mca
+	world/region/r.8.-11.mca
+	world/region/r.8.-12.mca
+	world/region/r.8.-13.mca
+	world/region/r.8.-14.mca
+	world/region/r.9.-12.mca
+	world/region/r.9.-13.mca
+	world/region/r.9.-14.mca
+	world/stats/c6c88fa8-c4c7-37a7-8f6e-c3f664106601.json
+	world/stats/eeedd431-4dc6-3b6f-8984-183c4ea61fa0.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date

@@ -1,0 +1,16 @@
+Hagia Maura;-395/64/652;religiousvillage;byzantines;
+Strenos;-899/73/1796;tradingvillage;byzantines;
+Isigny-l'océan;-666/67/2477;ecclesiastique;norman;
+Q'umarkaj;-859/81/3126;religious;mayan;
+Mewali Mahal;-129/71/-1113;indian_palace_autonomous;indian;
+Chofu;1017/71/-2103;seiji;japanese;
+Chigasaki;2344/77/-3362;trading;japanese;
+Saint-Georges-les-collines;3190/80/-4431;ecclesiastique;norman;
+Hacıbey-Gölde;3871/69/-5489;agriculture_small_seljuks;seljuk;
+Bonampak;4415/77/-6281;agriculture;mayan;
+Iwaki;5068/78/-6260;seiji;japanese;
+Ise;5681/72/-6138;seiji;japanese;
+Tsumago;5910/73/-6796;seiji;japanese;
+Chigasaki;7443/77/-8807;trading;japanese;
+Albe;7597/72/-9692;militaryvillage;byzantines;
+Chicanna;6239/72/-14586;agriculture;mayan;

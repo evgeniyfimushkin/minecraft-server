@@ -1,0 +1,12 @@
+player_name=Cabella249
+donation_mode=false
+culture_reputation=byzantines,-45
+village_reputations=-899/73/1796,-444
+village_diplomacy=1046/76/-1914,5
+village_diplomacy=1017/71/-2103,5
+village_diplomacy=1097/69/-1960,5
+village_diplomacy=-859/81/3126,5
+village_diplomacy=-129/71/-1113,5
+village_diplomacy=-395/64/652,5
+village_diplomacy=-899/73/1796,5
+village_diplomacy=-666/67/2477,5

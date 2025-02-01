@@ -1,0 +1,15 @@
+player_name=redstouner
+donation_mode=false
+culture_reputation=byzantines,17
+culture_reputation=norman,22
+culture_language=byzantines,69
+culture_language=norman,78
+village_reputations=-60/69/-207,69
+village_reputations=-395/64/652,61
+village_reputations=-666/67/2477,200
+village_diplomacy=1046/76/-1914,5
+village_diplomacy=-859/81/3126,5
+village_diplomacy=-129/71/-1113,5
+village_diplomacy=-395/64/652,5
+village_diplomacy=-899/73/1796,5
+village_diplomacy=-666/67/2477,5
