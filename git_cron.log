@@ -5599,3 +5599,20 @@ After doing this, you may fix the identity used for this commit with:
  92 files changed, 46 insertions(+), 3 deletions(-)
 To github.com:evgeniyfimushkin/minecraft-server.git
    15f7a86..959a32c  master -> master
+[master 431b467] Auto commit: 2025-02-23 06:00:01
+ Committer: evgeniyfimushkin <evgeniyfimushkin@192.168.0.10>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 34 files changed, 17 insertions(+)
+To github.com:evgeniyfimushkin/minecraft-server.git
+   959a32c..431b467  master -> master
